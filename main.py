@@ -1,9 +1,9 @@
 import pandas as pd
-from src.utils.load_file import load
 from src.scripts.data_cleaning import clean_df
 from src.scripts.model_training import rf_train
 from src.scripts.model_evaluation import evaluation
 from src.scripts.model_prediction import prediction
+from src.utils.load_file import load
 from src.utils.split_dataset import split
 
 MAIN_DATASET_FILE_NAME = 'flight_price.csv'
