@@ -121,6 +121,7 @@ celerybeat.pid
 
 # Environments
 flightenv
+flight_price_env 
 .env
 .venv
 env/
